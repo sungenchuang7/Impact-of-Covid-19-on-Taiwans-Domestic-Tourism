@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://trainerblade.shinyapps.io/R_group1_final_project/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--<base href="_w_24061a55/">--><base href=".">
+    <script type="text/javascript">
+(function() {
+  var workerId = '_w_24061a55';
+  // remove base href if worker ID is in url
+  if (window.location.href.indexOf(workerId) > 0) {
+    document.querySelector('base').removeAttribute('href');
+  }
+})();
+</script>
+
+      <script type="text/javascript">
+      var __connect = {
+        shinyPre101: false
+      }
+      </script>
+      
+  
+  <script type="application/shiny-singletons">319444da740392f204483c5df0f124fd8c56ee5f</script>
+  <script type="application/html-dependencies">jquery[3.5.1];shiny-css[1.6.0];shiny-javascript[1.6.0];font-awesome[5.13.0];shinyWidgets[0.6.0];selectize[0.12.4];htmlwidgets[1.5.3];datatables-css[0.0.0];datatables-binding[0.18];crosstalk[1.1.1];bootstrap[3.4.1]</script>
+<script src="./trainerblade.shinyapps.io_files/jquery.min.js"></script>
+<link href="./trainerblade.shinyapps.io_files/shiny.min.css" rel="stylesheet">
+<script src="./trainerblade.shinyapps.io_files/shiny.min.js"></script>
+<link href="./trainerblade.shinyapps.io_files/all.min.css" rel="stylesheet">
+<link href="./trainerblade.shinyapps.io_files/v4-shims.min.css" rel="stylesheet">
+<link href="./trainerblade.shinyapps.io_files/shinyWidgets.min.css" rel="stylesheet">
+<script src="./trainerblade.shinyapps.io_files/shinyWidgets-bindings.min.js"></script>
+<link href="./trainerblade.shinyapps.io_files/selectize.bootstrap3.css" rel="stylesheet">
+<script src="./trainerblade.shinyapps.io_files/selectize.min.js"></script>
+<script src="./trainerblade.shinyapps.io_files/selectize-plugin-a11y.min.js"></script>
+<script src="./trainerblade.shinyapps.io_files/htmlwidgets.js"></script>
+<link href="./trainerblade.shinyapps.io_files/datatables-crosstalk.css" rel="stylesheet">
+<script src="./trainerblade.shinyapps.io_files/datatables.js"></script>
+<link href="./trainerblade.shinyapps.io_files/crosstalk.css" rel="stylesheet">
+<script src="./trainerblade.shinyapps.io_files/crosstalk.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./trainerblade.shinyapps.io_files/bootstrap.min.css" rel="stylesheet">
+<link href="./trainerblade.shinyapps.io_files/bootstrap-accessibility.min.css" rel="stylesheet">
+<script src="./trainerblade.shinyapps.io_files/bootstrap.min.js"></script>
+<script src="./trainerblade.shinyapps.io_files/bootstrap-accessibility.min.js"></script>  <link rel="stylesheet" type="text/css" href="./trainerblade.shinyapps.io_files/flatly.min.css">
+  <style>.btn-addon{font-size:14.5px;margin:0 0 0 0 !important;display: inline-block !important;}</style>
+<script src="./trainerblade.shinyapps.io_files/sockjs-0.3.min.js"></script>
+<script src="./trainerblade.shinyapps.io_files/shiny-server-client.min.js"></script>
+<script>preShinyInit({reconnect:true,reconnectTimeout:15000,disableProtocols:["xdr-streaming","xdr-polling","websocket"],transportDebugging:false,token:true,workerId:true,subappTag:true,extendSession:true,fixupInternalLinks:true});</script>
+<link rel="stylesheet" type="text/css" href="./trainerblade.shinyapps.io_files/rstudio-connect.css">
+<link rel="stylesheet" type="text/css" href="./trainerblade.shinyapps.io_files/shinyapps.css"></head>
+<body class="">
+<script type="text/javascript" src="./trainerblade.shinyapps.io_files/iframeResizer.contentWindow.min.js"></script>
+<script type="text/javascript" src="./trainerblade.shinyapps.io_files/shinyapps.frame.content.js"></script>
+<script type="text/javascript" src="./trainerblade.shinyapps.io_files/shinyapps.js"></script>
+
+  <div class="container-fluid">
+    <h1>COVID-19-對台灣國旅的影響</h1>
+    <div class="tabbable">
+      <ul class="nav nav-tabs" data-tabsetid="1767" role="tablist">
+        <li class="active" role="presentation">
+          <a href="https://trainerblade.shinyapps.io/R_group1_final_project/_w_24061a55/#tab-1767-1" data-toggle="tab" data-value="介紹" role="tab" id="ui-tab-104" tabindex="0" aria-selected="true" aria-controls="tab-1767-1">介紹</a>
+        </li>
+        <li role="presentation">
+          <a href="https://trainerblade.shinyapps.io/R_group1_final_project/_w_24061a55/#tab-1767-2" data-toggle="tab" data-value="各景點每月遊歷人數（2018 - 2020）" role="tab" id="ui-tab-257" tabindex="-1" aria-selected="false" aria-controls="tab-1767-2">各景點每月遊歷人數（2018 - 2020）</a>
+        </li>
+        <li role="presentation">
+          <a href="https://trainerblade.shinyapps.io/R_group1_final_project/_w_24061a55/#tab-1767-3" data-toggle="tab" data-value="各景點人數成長率" role="tab" id="ui-tab-183" tabindex="-1" aria-selected="false" aria-controls="tab-1767-3">各景點人數成長率</a>
+        </li>
+        <li role="presentation">
+          <a href="https://trainerblade.shinyapps.io/R_group1_final_project/_w_24061a55/#tab-1767-4" data-toggle="tab" data-value="成長率前十大景點 Google評論情緒分析" role="tab" id="ui-tab-50" tabindex="-1" aria-selected="false" aria-controls="tab-1767-4">成長率前十大景點 Google評論情緒分析</a>
+        </li>
+        <li role="presentation">
+          <a href="https://trainerblade.shinyapps.io/R_group1_final_project/_w_24061a55/#tab-1767-5" data-toggle="tab" data-value="結論 / 資料來源" role="tab" id="ui-tab-921" tabindex="-1" aria-selected="false" aria-controls="tab-1767-5">結論 / 資料來源</a>
+        </li>
+      </ul>
+      <div class="tab-content" data-tabsetid="1767">
+        <div class="tab-pane active" data-value="介紹" id="tab-1767-1" role="tabpanel" tabindex="0" aria-hidden="false" aria-labelledby="ui-tab-104">
+          <h3>COVID-19除了影響日常生活，也影響國人旅遊型態</h3>
+          <h3>在本報告中，我們將蒐集各觀光景點在疫情前後的造訪人次資料、Google評論</h3>
+          <h3>以上述資料找出各觀光景點成長幅度，並以情緒分析找出影響成長幅度多寡的原因</h3>
+          <h3>
+</h3>
+          <h5>組員：莊頌恩、盧妍蓁、陳郁婕、朱嘉棟</h5>
+        </div>
+        <div class="tab-pane" data-value="各景點每月遊歷人數（2018 - 2020）" id="tab-1767-2" role="tabpanel" tabindex="-1" aria-hidden="true" aria-labelledby="ui-tab-257">
+          <div class="form-group shiny-input-container" style="width: 450px;">
+            <label for="place">輸入一個觀光景點(包含片面字詞 / regex)</label>
+            <div id="place" data-reset="TRUE" data-reset-value="" class="input-group search-text shiny-bound-input">
+              <input id="place_text" style="border-radius: 0.25em 0 0 0.25em !important;" type="text" class="form-control shiny-bound-input" value="" placeholder="例: 日月潭, 墾丁, 遊樂園, Zoo">
+              <div class="input-group-btn">
+                <button class="btn btn-default btn-addon action-button shiny-bound-input" id="place_reset" type="button">
+                  <i class="fa fa-remove" role="presentation" aria-label="remove icon"></i>
+                </button>
+                <button class="btn btn-default btn-addon action-button shiny-bound-input" id="place_search" type="button">
+                  <i class="fa fa-search" role="presentation" aria-label="search icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div id="showplot" class="shiny-plot-output shiny-bound-output" style="width:100%;height:400px;" aria-live="polite"></div>
+        </div>
+        <div class="tab-pane" data-value="各景點人數成長率" id="tab-1767-3" role="tabpanel" tabindex="-1" aria-hidden="true" aria-labelledby="ui-tab-183">
+          <div class="form-group shiny-input-container">
+            <label class="control-label" id="period-label" for="period-selectized">請選擇時間區段</label>
+            <div>
+              <select id="period" tabindex="-1" class="selectized shiny-bound-input" style="display: none;"><option value="全年度" selected="selected">全年度</option></select><div class="selectize-control single plugin-selectize-plugin-a11y"><div class="selectize-input items full has-options has-items"><div class="item" data-value="全年度">全年度</div><input type="text" autocomplete="off" tabindex="" id="period-selectized" role="combobox" aria-expanded="false" haspopup="listbox" aria-owns="xvz58y37uq" style="width: 4px;"></div><div class="selectize-dropdown single plugin-selectize-plugin-a11y" style="display: none;"><div class="selectize-dropdown-content" role="listbox" id="xvz58y37uq"></div></div></div>
+              <script type="application/json" data-for="period" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
+            </div>
+          </div>
+          <div class="form-group shiny-input-container">
+            <label class="control-label" id="year-label" for="year-selectized">請選擇年份</label>
+            <div>
+              <select id="year" tabindex="-1" class="selectized shiny-bound-input" style="display: none;"><option value="2018-2019" selected="selected">2018-2019</option></select><div class="selectize-control single plugin-selectize-plugin-a11y"><div class="selectize-input items full has-options has-items"><div class="item" data-value="2018-2019">2018-2019</div><input type="text" autocomplete="off" tabindex="" id="year-selectized" role="combobox" aria-expanded="false" haspopup="listbox" aria-owns="ndxjrvc2k3" style="width: 4px;"></div><div class="selectize-dropdown single plugin-selectize-plugin-a11y" style="display: none;"><div class="selectize-dropdown-content" role="listbox" id="ndxjrvc2k3"></div></div></div>
+              <script type="application/json" data-for="year" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
+            </div>
+          </div>
+          <div id="growth" style="width:100%; height:auto; " class="datatables html-widget html-widget-output shiny-bound-output" aria-live="polite"></div>
+        </div>
+        <div class="tab-pane" data-value="成長率前十大景點 Google評論情緒分析" id="tab-1767-4" role="tabpanel" tabindex="-1" aria-hidden="true" aria-labelledby="ui-tab-50">
+          <div class="form-group shiny-input-container">
+            <label class="control-label" id="site-label" for="site-selectized">請選擇景點</label>
+            <div>
+              <select id="site" tabindex="-1" class="selectized shiny-bound-input" style="display: none;"><option value="北港朝天宮" selected="selected">北港朝天宮</option></select><div class="selectize-control single plugin-selectize-plugin-a11y"><div class="selectize-input items full has-options has-items"><div class="item" data-value="北港朝天宮">北港朝天宮</div><input type="text" autocomplete="off" tabindex="" id="site-selectized" role="combobox" aria-expanded="false" haspopup="listbox" aria-owns="slfe3gbaw0" style="width: 4px;"></div><div class="selectize-dropdown single plugin-selectize-plugin-a11y" style="display: none;"><div class="selectize-dropdown-content" role="listbox" id="slfe3gbaw0"></div></div></div>
+              <script type="application/json" data-for="site" data-nonempty="">{"plugins":["selectize-plugin-a11y"]}</script>
+            </div>
+          </div>
+          <div id="sentimentplot" class="shiny-plot-output shiny-bound-output" style="width:100%;height:400px;" aria-live="polite"></div>
+        </div>
+        <div class="tab-pane" data-value="結論 / 資料來源" id="tab-1767-5" role="tabpanel" tabindex="-1" aria-hidden="true" aria-labelledby="ui-tab-921">
+          <h4>在疫情爆發年（2020），台灣實施嚴格邊境管制，以致國際觀光客無法自由往來，使國內3-4月</h4>
+          <h4>各觀光景點造訪人次大幅流失。然而隨國內疫情平穩及政府推出的安心旅遊補助政策，國內各大</h4>
+          <h4>景點除了恢復觀光熱潮，更相較前兩年呈現大幅的觀光成長。其中室外景點的成長幅度又高於室</h4>
+          <h4>內景點。</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="ss-connect-dialog" style="display: none;"><label>Attempting to reconnect...</label><label>&nbsp;</label></div><div id="ss-overlay" class="ss-gray-out" style="display: none;"></div><div aria-live="assertive" role="log" aria-relevant="additions" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; margin-top: -1px; clip: rect(1px, 1px, 1px, 1px); overflow: hidden;"></div><div aria-live="assertive" role="log" aria-relevant="additions" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; margin-top: -1px; clip: rect(1px, 1px, 1px, 1px); overflow: hidden;"></div><div aria-live="assertive" role="log" aria-relevant="additions" aria-atomic="true" style="position: absolute; width: 1px; height: 1px; margin-top: -1px; clip: rect(1px, 1px, 1px, 1px); overflow: hidden;"></div></body></html>
