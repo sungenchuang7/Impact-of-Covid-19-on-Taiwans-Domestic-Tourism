@@ -30,4 +30,4 @@ Here's the link to the original web application: https://trainerblade.shinyapps.
 
 Here's the translated version: https://sungenchuang7.shinyapps.io/impact-of-covid19-on-taiwans-domestic-tourism/
 
-The website has very easily self-explantory features. Please enjoy exploring the web application yourself. 
+The website has very easily self-explanatory features. Please enjoy exploring the web application yourself. 
