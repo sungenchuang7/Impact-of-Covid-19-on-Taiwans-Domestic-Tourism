@@ -3,6 +3,7 @@
 This is the final group project of the course Introduction to Programming for Data Science. Using official statistics that showed the numbers of visitors to different tourist attractions in Taiwan each month from 2018-2020, we calculated the popularity growth rate of each tourist spot. 
 
 The popularity growth of a tourist attractions (say, Site A) is defined as follows:
+
 (Number of visitors to Site A during the season of interest in year X - number of visitors to site A during the same season in year X-1) / number of visitors to site A during the same season in year X-1
 
 For examples, the growth rate of site A during summer vacation season in 2020 will be:
