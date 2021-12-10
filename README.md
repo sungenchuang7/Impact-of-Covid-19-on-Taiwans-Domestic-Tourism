@@ -26,7 +26,7 @@ Targeting the top 10 tourist attractions with the most significat annual growth 
 
 We've built an interactive web application using R Shiny to feature everything described above. Since the original project was done in Mandarin Chinese, I've translated most stuff in the application. The only thing that I wasn't able to translate is the result of the sentiment analysis because the crawled reviews were all written in Chinese. 
 
-Here's the link to the original web application: https://trainerblade.shinyapps.io/R_group1_final_project/
+Here's the link to the original web application: https://trainerblade.shinyapps.io/R_group1_final_project/ \n
 Here's the translated version: https://sungenchuang7.shinyapps.io/impact-of-covid19-on-taiwans-domestic-tourism/
 
 The website has very easily self-explantory features. Please enjoy exploring the web application yourself. 
